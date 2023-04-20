@@ -1,0 +1,39 @@
+[
+ {
+  "id":1,
+  "name": "Ирина Воронкова",
+  "profession": "Мастер маникюра",
+  "photo": "person-1"
+ },
+ {
+  "id":2,
+  "name": "Юлия Самойлова",
+  "profession": "Стилист",
+  "photo": "person-2"
+ },
+ {
+  "id":3,
+  "name": "Вера Касатнкина",
+  "profession": "Парикмахер",
+  "photo": "person-3"
+ },
+ {
+  "id":4,
+  "name": "Илона Супова",
+  "profession": "Косметолог",
+  "photo": "person-4"
+ },
+ {
+  "id":5,
+  "name": "Инга Цыганова",
+  "profession": "Массажист",
+  "photo": "person-5"
+ },
+ {
+  "id":6,
+  "name": "Рита Животиш",
+  "profession": "Стилист",
+  "photo": "person-2"
+ }
+ 
+]

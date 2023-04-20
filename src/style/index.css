@@ -1,0 +1,11 @@
+/* шрифт */
+@import url(./fonts.css);
+/* общие стили */
+@import url(./general.css);
+/*стили обертки*/
+@import url(./layout.css);
+/*стили компонентов*/
+/* @import url(./people.css); */
+@import url(./form-person.css);
+@import url(./rating.css);
+@import url(./person.css);

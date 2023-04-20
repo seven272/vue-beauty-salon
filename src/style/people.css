@@ -1,0 +1,170 @@
+:root {
+ --color-bg-card-1: #00C6AE;
+ --color-bg-card-border: #18191F;
+ --color-text-black: #18191F;
+ --color-text-white: #D6FCF7;
+ --color-text-white-2: #ffffff;
+}
+
+.staff__title {
+ font-family: 'Inter Bold', Helvetica, sans-serif;
+ font-size: 22px;
+ font-weight: 700;
+ font-style: normal;
+ line-height: 1.2;
+}
+
+.staff__people {
+ width: 90vw;
+ list-style-type: none;
+ padding: 0;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ background-color: var(--color-bg-card-1);
+}
+
+.staff__person {
+ width: 327px;
+ max-width: calc(100%/2.5);
+ height: max-content;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ border: 2px solid var(--color-bg-card-border);
+ border-radius: 16px;
+ background-color: var(--color-bg-card-1);
+ margin-bottom: 20px !important;
+}
+
+.staff__person-wrap {
+ width: 100%;
+ margin: 10px 0 10px 0;
+ padding: 0;
+ display: grid;
+ grid-template-columns: repeat(2, 50%);
+ grid-template-rows: 70px;
+ grid-template-areas:
+    "name photo"
+    "profession photo";
+}
+
+.staff__person-name {
+grid-area: name;
+color: var(--color-text-black);
+font-family: 'Montserrat-ExtraBold', Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 21px;
+line-height: 1.1;
+margin: auto !important;
+word-wrap: break-word;
+word-spacing: 15px;
+}
+
+.staff__person-profession {
+ grid-area: profession;
+ color: var(--color-text-white);
+ font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.2;
+ margin: 0;
+ }
+
+.staff__photo-wrap {
+ grid-area: photo;
+ width: 90px;
+ height: 90px;
+ border-radius: 50%;
+ border: 2px solid var(--color-bg-card-border);
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ margin: auto !important;
+}
+
+.staff__person-photo {
+ width: 70px;
+ height: 70px;
+ object-fit: cover;
+ border-radius: 50%;
+}
+
+
+.staff__person-icons {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items:right;
+ flex-wrap: wrap;
+ /* justify-content: start; */
+}
+
+
+.staff__person-icon {
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ margin-left: 10px;
+ margin-bottom: 5px;
+}
+
+.icon__achievement {
+ display: flex;
+ width: 22px;
+ height: 22px;
+ overflow: hidden;
+ box-sizing: border-box;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ margin-right: 10px;
+}
+
+.icon__money {
+ background-image: url("../assets/images/bag-money.png");
+}
+
+.icon__donate {
+ background-image: url("../assets/images/donate.png");
+}
+
+.icon__bill {
+ background-image: url("../assets/images/bill.png");
+}
+
+.icon__heart {
+ background-image: url("../assets/images/heart.png");
+}
+
+.icon__description {
+ font-family: 'Montserrat-Regular', Arial, Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.1;
+ margin: 0 5px;
+}
+
+.icon__sum {
+ font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 1.2;
+ color: var(--color-text-white)
+}
+
+.name__currency {
+ font-family: 'Montserrat-Light', Arial, Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: 200;
+ font-size: 11px;
+ line-height: 1.2;
+ color: var(--color-text-white)
+}

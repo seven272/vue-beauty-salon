@@ -1,0 +1,107 @@
+:root {
+ --color-bg-card-1: #00C6AE;
+ --color-bg-card-border: #18191F;
+ --color-text-black: #18191F;
+ --color-text-white: #D6FCF7;
+ --color-text-white-2: #ffffff;
+}
+
+.form-person {
+ width: 90%;
+ margin: 10px auto 10px auto;
+ padding-top: 10px;
+ border-top: 2px solid var(--color-bg-card-border);
+}
+
+.form-person__label {
+ font-family: 'Montserrat-Regular', Arial, Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.2;
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 10px;
+}
+
+.form-person__input {
+ width: 20%;
+}
+
+.form-person__buttons {
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+}
+
+.form-person__like-text {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ width: 50%;
+ height: auto;
+ cursor: pointer;
+ font-family: 'Montserrat-Regular', Arial, Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.2;
+}
+.form-person__like-buttons {
+ display: flex;
+ width: 50%;
+ align-items: center;
+ justify-content: space-around;
+}
+.like__btn {
+ font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 24px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 32px;
+ height: 32px;
+ /* padding: 10px 10px; */
+ border: 1px solid var(--color-bg-card-border);
+ border-radius: 50%;
+ cursor: pointer;
+}
+
+.like__btn:disabled {
+  pointer-events:none;
+  opacity: 0.5;
+}
+
+.form-person__like {
+ display: flex;
+ width: 22px;
+ height: 22px;
+ overflow: hidden;
+ box-sizing: border-box;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ margin-right: 5px;
+}
+.icon__like {
+  background-image: url("../assets/images/like.png");
+}
+
+.form-person__like-value {
+ font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 28px;
+ line-height: 1.2;
+ color: var(--color-text-white-2);
+ text-align: left;
+}
+
+.input__profit {
+  width: 95px;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+}
